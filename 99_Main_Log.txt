@@ -1,0 +1,27 @@
+23:27 13 Sep 2026 
+Setting up Main Project File and Text-Mining-Assisted Literature Review Guide; Found a new paper on gNODE (gLV+ NODE)
+
+22:47 15 Sep 2026
+Debugging 
+```
+ImportError: DLL load failed while importing _jax: A dynamic link library (DLL) initialization routine failed.
+```
+. 
+Trying to get eNODE.py and gLV.py working but failed. See debug-20260915.md. Continue tomorrow. 
+
+21:36 17 Sep 2026
+Trouble-shooting steps: 
+1. Reinstall Visual C++ Redistributable 
+2. Verify synchronization jax and jaxlib version
+3. Clear Hidden Cache Folders
+4. Swap order of importing matplotlib and jax
+
+But none of the above solved the problem. 
+Then installed Python 3.14.7 and modules. It worked. The tutorial script ran successfully.
+(previous version: 3.12.0)
+
+Ran Cdiff eNODE and compared their Pearson's R with R.
+Run gNODE next (the code is provided in python but not in Jupyter Notebook and /wo tutorials).
+
+
+
